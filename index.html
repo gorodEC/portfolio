@@ -1,0 +1,191 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Алиса Бикбаева — Фотограф</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="container nav">
+            <div class="logo">BIKBAEVA PHOTO</div>
+
+            <nav class="nav-links">
+                <a href="#about">О себе</a>
+                <a href="#experience">Опыт</a>
+                <a href="#education">Образование</a>
+                <a href="#skills">Навыки</a>
+                <a href="#projects">Проекты</a>
+                <a href="#contacts">Контакты</a>
+            </nav>
+
+            <button class="theme-btn" id="themeBtn">◐</button>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container hero-content">
+
+            <div class="photo"></div>
+
+            <div>
+                <h1>Алиса Бикбаева</h1>
+                <p>
+                    Профессиональный фотограф, специализирующийся
+                    на портретной и репортажной съемке.
+                    Помогаю людям и брендам рассказывать истории через кадр.
+                </p>
+
+                <div class="stats">
+                    <div class="card stat">
+                        <span id="yearsCounter">0</span>
+                        лет опыта
+                    </div>
+
+                    <div class="card stat">
+                        <span>50+</span>
+                        проектов
+                    </div>
+
+                    <div class="card stat">
+                        <span>50+</span>
+                        клиентов
+                    </div>
+
+
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="info">
+        <div class="container">
+            <div class="info-grid">
+
+                <div class="card">
+                    <h2>О себе</h2>
+                    <p>
+                        Более 6 лет занимаюсь коммерческой фотографией.
+                        Создаю эмоциональные портреты, репортажи мероприятий,
+                        корпоративные фотосессии и контент для социальных сетей.
+                        В работе ценю естественность, атмосферу и внимание к деталям.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <h2>Образование</h2>
+                    <h3>Санкт-Петербургская Школа Телевидения</h3>
+                    <p>
+                        Курс профессиональной фотографии,
+                        композиции, работы со светом и ретуши.
+                    </p>
+
+                </div>
+
+                <div class="card">
+                    <h2>Навыки</h2>
+
+                    <div class="skills">
+                        <div class="skill">Портретная съемка</div>
+                        <div class="skill">Репортаж</div>
+                        <div class="skill">Adobe Lightroom</div>
+                        <div class="skill">Photoshop</div>
+                        <div class="skill">Цветокоррекция</div>
+                        <div class="skill">Работа со светом</div>
+                        <div class="skill">Ретушь</div>
+                        <div class="skill">Контент для брендов</div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+
+            <h2>Проекты</h2>
+
+            <div class="filters">
+                <button class="filter-btn" data-filter="all">Все</button>
+                <button class="filter-btn" data-filter="portrait">Портреты</button>
+                <button class="filter-btn" data-filter="reportage">Репортаж</button>
+            </div>
+
+            <div class="projects">
+
+                <div class="card project" data-category="portrait">
+                    <div class="project-image"
+                         style="background-image:url('img/port1.jpg')"></div>
+                    <h3>Серия Солнечный Мальчик</h3>
+                    <p>Мужской романтичный портрет.</p>
+                </div>
+
+                <div class="card project" data-category="portrait">
+                    <div class="project-image"
+                         style="background-image:url('img/dog.jpg')"></div>
+                    <h3>Серия Прогулка с питомцем</h3>
+                    <p>Крепкая связь между Полиной и Эстой.</p>
+                </div>
+
+                <div class="card project" data-category="reportage">
+                    <div class="project-image"
+                         style="background-image: url('img/chess.jpg')"></div>
+                    <h3>Шахматный турнир</h3>
+                    <p>Репортажная съемка для профессиональной лиги.</p>
+                </div>
+                <div class="card project" data-category="portrait">
+                    <div class="project-image"
+                         style="background-image: url('img/forest.jpg')"></div>
+                    <h3>Серия Лесная Нимфа</h3>
+                    <p>Нежный женский портрет.</p>
+                </div>
+                <div class="card project" data-category="portrait">
+                    <div class="project-image"
+                         style="background-image: url('img/street.jpg')"></div>
+                    <h3>Серия Паркур Парк</h3>
+                    <p>Мужской портрет streetstyle.</p>
+                </div>
+                <div class="card project" data-category="portrait">
+                    <div class="project-image"
+                         style="background-image: url('img/man.jpg')"></div>
+                    <h3>Серия Актер</h3>
+                    <p>Мужской психологический портрет.</p>
+                </div>
+                <div class="card project" data-category="reportage">
+                    <div class="project-image"
+                         style="background-image: url('img/baber.jpg')"></div>
+                    <h3>Барбершоп</h3>
+                    <p>Репортажная съемка для конкурса барберов.</p>
+
+                </div>
+            </div>
+
+    </section>
+
+    <section id="contacts">
+        <div class="container">
+            <h2>Контакты</h2>
+
+            <div class="card contacts">
+                <p>Email: abikbaevaphoto@example.com</p>
+                <p>Телефон: +7 (999) 123-45-67</p>
+                <p>Telegram: @abikbaeva</p>
+                <p>Instagram: @abikbaeva.photo</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        Нейросеть: ChatGPT — 1 час <br>JS функционал: смена темы,счетчик опыта,фильтрация проектов.
+    </footer>
+
+
+    <script src="Script1.js"></script>
+</body>
+</html>
